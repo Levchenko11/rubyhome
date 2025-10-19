@@ -1,0 +1,26 @@
+<!-- 
+    Modal Component
+    Универсальный компонент модального окна
+    
+    Параметры:
+    - {modalId} - ID модального окна
+    - {title} - заголовок модального окна
+    - {content} - содержимое модального окна (HTML)
+-->
+
+<div class="modal" id="{modalId}" aria-hidden="true" role="dialog" aria-labelledby="modalTitle">
+    <div class="modal__overlay" aria-label="Закрыть модальное окно"></div>
+    <div class="modal__content">
+        <button class="modal__close" type="button" aria-label="Закрыть модальное окно" tabindex="0">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+        
+        <div class="modal__header">
+            <h2 class="modal__title" id="modalTitle">{title}</h2>
+        </div>
+        
+        {content}
+    </div>
+</div>

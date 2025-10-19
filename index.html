@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="ru" itemscope itemtype="https://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RybuHome - Агенство недвижимости</title>
+    <meta name="description" content="RybuHome - ведущее агенство недвижимости. Помогаем найти идеальный дом для вашей семьи. Профессиональные услуги по покупке, продаже и аренде недвижимости.">
+    <meta name="keywords" content="недвижимость, агенство недвижимости, покупка дома, продажа дома, аренда, RybuHome">
+    <meta property="og:title" content="RybuHome - Агенство недвижимости">
+    <meta property="og:description" content="Найдите идеальное место для проживания с вашей семьей. Профессиональные услуги недвижимости от RybuHome.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rybuhome.com">
+    <meta property="og:image" content="https://rybuhome.com/assets/img/hero.webp">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="RybuHome - Агенство недвижимости">
+    <meta name="twitter:description" content="Найдите идеальное место для проживания с вашей семьей">
+    <meta name="twitter:image" content="https://rybuhome.com/assets/img/hero.webp">
+    <link rel="canonical" href="https://rybuhome.com/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body itemscope itemtype="https://schema.org/WebPage">
+    <header class="header" itemscope itemtype="https://schema.org/WPHeader">
+        <div class="header__container">
+            <div class="header__logo">
+                <a href="#" class="header__logo-link" tabindex="0" aria-label="RybuHome - главная страница" itemprop="url">
+                    <img src="assets/img/logo.svg" alt="RybuHome" class="header__logo-img" width="181" height="45" itemprop="logo">
+                </a>
+            </div>
+            <button class="header__burger" type="button" tabindex="0" aria-label="Открыть меню навигации" aria-expanded="false">
+                <span class="header__burger-line"></span>
+                <span class="header__burger-line"></span>
+                <span class="header__burger-line"></span>
+            </button>
+            <nav class="header__nav" role="navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
+                <ul class="header__menu">
+                    <li class="header__menu-item">
+                        <a href="#home" class="header__menu-link header__menu-link--active" tabindex="0" aria-label="Главная страница">Home</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="#properties" class="header__menu-link" tabindex="0" aria-label="Объекты недвижимости">Properties</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="#about" class="header__menu-link" tabindex="0" aria-label="О нас">About Us</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="#reviews" class="header__menu-link" tabindex="0" aria-label="Отзывы">Reviews</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__contact">
+                <button class="header__contact-btn btn-primary" type="button" tabindex="0" aria-label="Связаться с нами">
+                    Contact Us
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main" itemscope itemtype="https://schema.org/WebPageElement">
+        <section class="hero" id="home" itemscope itemtype="https://schema.org/Organization">
+            <div class="hero__container">
+                <div class="hero__content">
+                    <h1 class="hero__title" itemprop="name">Find the perfect place to stay with your family</h1>
+                    <p class="hero__subtitle" itemprop="description">Buying a home is a life-changing experience, so shouldn't your real estate agent be a life changer</p>
+                    <button class="hero__btn btn-primary" type="button" tabindex="0" aria-label="Оставить заявку">Leave request</button>
+                </div>
+                <div class="hero__image">
+                    <picture>
+                        <source srcset="assets/img/hero.webp" type="image/webp">
+                        <img src="assets/img/hero.webp" alt="Современное здание" class="hero__img" width="600" height="500">
+                    </picture>
+                </div>
+            </div>
+        </section>
+
+        <section class="partners" itemscope itemtype="https://schema.org/Organization">
+            <div class="partners__container">
+                <h2 class="partners__title" itemprop="name">Our Partners</h2>
+                <div class="partners__grid">
+                    <div class="partners__item">
+                        <picture>
+                            <source srcset="assets/img/6L21Bmus4K-removebg-preview (1) 2.webp" type="image/webp">
+                            <img src="assets/img/6L21Bmus4K-removebg-preview (1) 2.webp" alt="Biotech Development" class="partners__logo" width="200" height="80" loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="partners__item">
+                        <picture>
+                            <source srcset="assets/img/C1rvyMVdu8-removebg-preview (1) 2.webp" type="image/webp">
+                            <img src="assets/img/C1rvyMVdu8-removebg-preview (1) 2.webp" alt="Express" class="partners__logo" width="200" height="80" loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="partners__item">
+                        <picture>
+                            <source srcset="assets/img/jaFnKKhNc2-removebg-preview 2.webp" type="image/webp">
+                            <img src="assets/img/jaFnKKhNc2-removebg-preview 2.webp" alt="Smile Home" class="partners__logo" width="200" height="80" loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="partners__item">
+                        <picture>
+                            <source srcset="assets/img/PejBEGRRHr-removebg-preview (1) 1.webp" type="image/webp">
+                            <img src="assets/img/PejBEGRRHr-removebg-preview (1) 1.webp" alt="Connect" class="partners__logo" width="200" height="80" loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="partners__item">
+                        <picture>
+                            <source srcset="assets/img/qGcJsIZ3cy-removebg-preview (1) 3.webp" type="image/webp">
+                            <img src="assets/img/qGcJsIZ3cy-removebg-preview (1) 3.webp" alt="Home Build" class="partners__logo" width="200" height="80" loading="lazy">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="properties" id="properties" itemscope itemtype="https://schema.org/ItemList">
+            <div class="properties__container">
+                <h2 class="properties__title" itemprop="name">Popular Properties</h2>
+                <div class="properties__grid">
+                    <article class="property-card" itemscope itemtype="https://schema.org/RealEstateListing">
+                        <div class="property-card__image">
+                            <picture>
+                                <source srcset="assets/img/property-1-118913.webp" type="image/webp">
+                                <img src="assets/img/property-1-118913.webp" alt="Capital hill residence" class="property-card__img" width="362" height="321" loading="lazy">
+                            </picture>
+                        </div>
+                        <div class="property-card__content">
+                            <h3 class="property-card__title">Capital hill residence</h3>
+                            <div class="property-card__location">
+                                <svg class="property-card__location-icon" width="11" height="15" viewBox="0 0 11 15" fill="none">
+                                    <path d="M5.5 0C2.46243 0 0 2.46243 0 5.5C0 9.625 5.5 15 5.5 15C5.5 15 11 9.625 11 5.5C11 2.46243 8.53757 0 5.5 0ZM5.5 7.5C4.39543 7.5 3.5 6.60457 3.5 5.5C3.5 4.39543 4.39543 3.5 5.5 3.5C6.60457 3.5 7.5 4.39543 7.5 5.5C7.5 6.60457 6.60457 7.5 5.5 7.5Z" fill="currentColor" opacity="0.7"/>
+                                </svg>
+                                <span class="property-card__location-text">East London</span>
+                            </div>
+                            <div class="property-card__features">
+                                <div class="property-card__feature">
+                                    <svg class="property-card__feature-icon" width="16" height="13" viewBox="0 0 16 13" fill="none">
+                                        <path d="M1 12V6.5L8 1L15 6.5V12H10V8H6V12H1Z" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.7"/>
+                                    </svg>
+                                    <span class="property-card__feature-text">6</span>
+                                </div>
+                                <div class="property-card__feature">
+                                    <svg class="property-card__feature-icon" width="13" height="15" viewBox="0 0 13 15" fill="none">
+                                        <path d="M1 14V8H12V14M3 8V6C3 4.89543 3.89543 4 5 4H8C9.10457 4 10 4.89543 10 6V8M6.5 10.5V12.5" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.7"/>
+                                    </svg>
+                                    <span class="property-card__feature-text">2</span>
+                                </div>
+                                <div class="property-card__feature">
+                                    <svg class="property-card__feature-icon" width="14" height="15" viewBox="0 0 14 15" fill="none">
+                                        <path d="M1 14H13M2 14V1H12V14M4 4H6M8 4H10M4 7H6M8 7H10M4 10H6M8 10H10" stroke="currentColor" stroke-width="1.5" opacity="0.7"/>
+                                    </svg>
+                                    <span class="property-card__feature-text">3</span>
+                                </div>
+                            </div>
+                            <div class="property-card__footer">
+                                <span class="property-card__price">$5527.00</span>
+                                <button class="property-card__btn btn-primary" type="button" tabindex="0" aria-label="Оставить заявку на Capital hill residence">
+                                    Leave request
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="property-card">
+                        <div class="property-card__image">
+                            <picture>
+                                <source srcset="assets/img/property-2.webp" type="image/webp">
+                                <img src="assets/img/property-2.webp" alt="Corsair Real Estate" class="property-card__img" width="362" height="321" loading="lazy">
+                            </picture>
+                        </div>
+                        <div class="property-card__content">
+                            <h3 class="property-card__title">Corsair Real Estate</h3>
+                            <div class="property-card__location">
+                                <svg class="property-card__location-icon" width="11" height="15" viewBox="0 0 11 15" fill="none">
+                                    <path d="M5.5 0C2.46243 0 0 2.46243 0 5.5C0 9.625 5.5 15 5.5 15C5.5 15 11 9.625 11 5.5C11 2.46243 8.53757 0 5.5 0ZM5.5 7.5C4.39543 7.5 3.5 6.60457 3.5 5.5C3.5 4.39543 4.39543 3.5 5.5 3.5C6.60457 3.5 7.5 4.39543 7.5 5.5C7.5 6.60457 6.60457 7.5 5.5 7.5Z" fill="currentColor" opacity="0.7"/>
+                                </svg>
+                                <span class="property-card__location-text">East London</span>
+                            </div>
+                            <div class="property-card__features">
+                                <div class="property-card__feature">
+                                    <svg class="property-card__feature-icon" width="16" height="13" viewBox="0 0 16 13" fill="none">
+                                        <path d="M1 12V6.5L8 1L15 6.5V12H10V8H6V12H1Z" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.7"/>
+                                    </svg>
+                                    <span class="property-card__feature-text">6</span>
+                                </div>
+                                <div class="property-card__feature">
+                                    <svg class="property-card__feature-icon" width="13" height="15" viewBox="0 0 13 15" fill="none">
+                                        <path d="M1 14V8H12V14M3 8V6C3 4.89543 3.89543 4 5 4H8C9.10457 4 10 4.89543 10 6V8M6.5 10.5V12.5" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.7"/>
+                                    </svg>
+                                    <span class="property-card__feature-text">2</span>
+                                </div>
+                                <div class="property-card__feature">
+                                    <svg class="property-card__feature-icon" width="14" height="15" viewBox="0 0 14 15" fill="none">
+                                        <path d="M1 14H13M2 14V1H12V14M4 4H6M8 4H10M4 7H6M8 7H10M4 10H6M8 10H10" stroke="currentColor" stroke-width="1.5" opacity="0.7"/>
+                                    </svg>
+                                    <span class="property-card__feature-text">2</span>
+                                </div>
+                            </div>
+                            <div class="property-card__footer">
+                                <span class="property-card__price">$4427.00</span>
+                                <button class="property-card__btn btn-primary" type="button" tabindex="0" aria-label="Оставить заявку на Corsair Real Estate">
+                                    Leave request
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="property-card">
+                        <div class="property-card__image">
+                            <picture>
+                                <source srcset="assets/img/property-3-60af99.webp" type="image/webp">
+                                <img src="assets/img/property-3-60af99.webp" alt="Picket Fence Realty" class="property-card__img" width="362" height="321" loading="lazy">
+                            </picture>
+                        </div>
+                        <div class="property-card__content">
+                            <h3 class="property-card__title">Picket Fence Realty</h3>
+                            <div class="property-card__location">
+                                <svg class="property-card__location-icon" width="11" height="15" viewBox="0 0 11 15" fill="none">
+                                    <path d="M5.5 0C2.46243 0 0 2.46243 0 5.5C0 9.625 5.5 15 5.5 15C5.5 15 11 9.625 11 5.5C11 2.46243 8.53757 0 5.5 0ZM5.5 7.5C4.39543 7.5 3.5 6.60457 3.5 5.5C3.5 4.39543 4.39543 3.5 5.5 3.5C6.60457 3.5 7.5 4.39543 7.5 5.5C7.5 6.60457 6.60457 7.5 5.5 7.5Z" fill="currentColor" opacity="0.7"/>
+                                </svg>
+                                <span class="property-card__location-text">East London</span>
+                            </div>
+                            <div class="property-card__features">
+                                <div class="property-card__feature">
+                                    <svg class="property-card__feature-icon" width="16" height="13" viewBox="0 0 16 13" fill="none">
+                                        <path d="M1 12V6.5L8 1L15 6.5V12H10V8H6V12H1Z" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.7"/>
+                                    </svg>
+                                    <span class="property-card__feature-text">6</span>
+                                </div>
+                                <div class="property-card__feature">
+                                    <svg class="property-card__feature-icon" width="13" height="15" viewBox="0 0 13 15" fill="none">
+                                        <path d="M1 14V8H12V14M3 8V6C3 4.89543 3.89543 4 5 4H8C9.10457 4 10 4.89543 10 6V8M6.5 10.5V12.5" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.7"/>
+                                    </svg>
+                                    <span class="property-card__feature-text">2</span>
+                                </div>
+                                <div class="property-card__feature">
+                                    <svg class="property-card__feature-icon" width="14" height="15" viewBox="0 0 14 15" fill="none">
+                                        <path d="M1 14H13M2 14V1H12V14M4 4H6M8 4H10M4 7H6M8 7H10M4 10H6M8 10H10" stroke="currentColor" stroke-width="1.5" opacity="0.7"/>
+                                    </svg>
+                                    <span class="property-card__feature-text">3</span>
+                                </div>
+                            </div>
+                            <div class="property-card__footer">
+                                <span class="property-card__price">$6727.00</span>
+                                <button class="property-card__btn btn-primary" type="button" tabindex="0" aria-label="Оставить заявку на Picket Fence Realty">
+                                    Leave request
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="property-card">
+                        <div class="property-card__image">
+                            <picture>
+                                <source srcset="assets/img/property-4-78b19b.webp" type="image/webp">
+                                <img src="assets/img/property-4-78b19b.webp" alt="Strive Partners Realty" class="property-card__img" width="362" height="321" loading="lazy">
+                            </picture>
+                        </div>
+                        <div class="property-card__content">
+                            <h3 class="property-card__title">Strive Partners Realty</h3>
+                            <div class="property-card__location">
+                                <svg class="property-card__location-icon" width="11" height="15" viewBox="0 0 11 15" fill="none">
+                                    <path d="M5.5 0C2.46243 0 0 2.46243 0 5.5C0 9.625 5.5 15 5.5 15C5.5 15 11 9.625 11 5.5C11 2.46243 8.53757 0 5.5 0ZM5.5 7.5C4.39543 7.5 3.5 6.60457 3.5 5.5C3.5 4.39543 4.39543 3.5 5.5 3.5C6.60457 3.5 7.5 4.39543 7.5 5.5C7.5 6.60457 6.60457 7.5 5.5 7.5Z" fill="currentColor" opacity="0.7"/>
+                                </svg>
+                                <span class="property-card__location-text">East London</span>
+                            </div>
+                            <div class="property-card__features">
+                                <div class="property-card__feature">
+                                    <svg class="property-card__feature-icon" width="16" height="13" viewBox="0 0 16 13" fill="none">
+                                        <path d="M1 12V6.5L8 1L15 6.5V12H10V8H6V12H1Z" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.7"/>
+                                    </svg>
+                                    <span class="property-card__feature-text">6</span>
+                                </div>
+                                <div class="property-card__feature">
+                                    <svg class="property-card__feature-icon" width="13" height="15" viewBox="0 0 13 15" fill="none">
+                                        <path d="M1 14V8H12V14M3 8V6C3 4.89543 3.89543 4 5 4H8C9.10457 4 10 4.89543 10 6V8M6.5 10.5V12.5" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.7"/>
+                                    </svg>
+                                    <span class="property-card__feature-text">2</span>
+                                </div>
+                                <div class="property-card__feature">
+                                    <svg class="property-card__feature-icon" width="14" height="15" viewBox="0 0 14 15" fill="none">
+                                        <path d="M1 14H13M2 14V1H12V14M4 4H6M8 4H10M4 7H6M8 7H10M4 10H6M8 10H10" stroke="currentColor" stroke-width="1.5" opacity="0.7"/>
+                                    </svg>
+                                    <span class="property-card__feature-text">3</span>
+                                </div>
+                            </div>
+                            <div class="property-card__footer">
+                                <span class="property-card__price">$5527.00</span>
+                                <button class="property-card__btn btn-primary" type="button" tabindex="0" aria-label="Оставить заявку на Strive Partners Realty">
+                                    Leave request
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="property-card">
+                        <div class="property-card__image">
+                            <picture>
+                                <source srcset="assets/img/property-5-6ec2a8.webp" type="image/webp">
+                                <img src="assets/img/property-5-6ec2a8.webp" alt="Banyon Tree Realty" class="property-card__img" width="362" height="321" loading="lazy">
+                            </picture>
+                        </div>
+                        <div class="property-card__content">
+                            <h3 class="property-card__title">Banyon Tree Realty</h3>
+                            <div class="property-card__location">
+                                <svg class="property-card__location-icon" width="11" height="15" viewBox="0 0 11 15" fill="none">
+                                    <path d="M5.5 0C2.46243 0 0 2.46243 0 5.5C0 9.625 5.5 15 5.5 15C5.5 15 11 9.625 11 5.5C11 2.46243 8.53757 0 5.5 0ZM5.5 7.5C4.39543 7.5 3.5 6.60457 3.5 5.5C3.5 4.39543 4.39543 3.5 5.5 3.5C6.60457 3.5 7.5 4.39543 7.5 5.5C7.5 6.60457 6.60457 7.5 5.5 7.5Z" fill="currentColor" opacity="0.7"/>
+                                </svg>
+                                <span class="property-card__location-text">East London</span>
+                            </div>
+                            <div class="property-card__features">
+                                <div class="property-card__feature">
+                                    <svg class="property-card__feature-icon" width="16" height="13" viewBox="0 0 16 13" fill="none">
+                                        <path d="M1 12V6.5L8 1L15 6.5V12H10V8H6V12H1Z" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.7"/>
+                                    </svg>
+                                    <span class="property-card__feature-text">6</span>
+                                </div>
+                                <div class="property-card__feature">
+                                    <svg class="property-card__feature-icon" width="13" height="15" viewBox="0 0 13 15" fill="none">
+                                        <path d="M1 14V8H12V14M3 8V6C3 4.89543 3.89543 4 5 4H8C9.10457 4 10 4.89543 10 6V8M6.5 10.5V12.5" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.7"/>
+                                    </svg>
+                                    <span class="property-card__feature-text">2</span>
+                                </div>
+                                <div class="property-card__feature">
+                                    <svg class="property-card__feature-icon" width="14" height="15" viewBox="0 0 14 15" fill="none">
+                                        <path d="M1 14H13M2 14V1H12V14M4 4H6M8 4H10M4 7H6M8 7H10M4 10H6M8 10H10" stroke="currentColor" stroke-width="1.5" opacity="0.7"/>
+                                    </svg>
+                                    <span class="property-card__feature-text">3</span>
+                                </div>
+                            </div>
+                            <div class="property-card__footer">
+                                <span class="property-card__price">$4327.00</span>
+                                <button class="property-card__btn btn-primary" type="button" tabindex="0" aria-label="Оставить заявку на Banyon Tree Realty">
+                                    Leave request
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="property-card">
+                        <div class="property-card__image">
+                            <picture>
+                                <source srcset="assets/img/property-6-2fbbea.webp" type="image/webp">
+                                <img src="assets/img/property-6-2fbbea.webp" alt="Sequoia Real Estate" class="property-card__img" width="362" height="321" loading="lazy">
+                            </picture>
+                        </div>
+                        <div class="property-card__content">
+                            <h3 class="property-card__title">Sequoia Real Estate</h3>
+                            <div class="property-card__location">
+                                <svg class="property-card__location-icon" width="11" height="15" viewBox="0 0 11 15" fill="none">
+                                    <path d="M5.5 0C2.46243 0 0 2.46243 0 5.5C0 9.625 5.5 15 5.5 15C5.5 15 11 9.625 11 5.5C11 2.46243 8.53757 0 5.5 0ZM5.5 7.5C4.39543 7.5 3.5 6.60457 3.5 5.5C3.5 4.39543 4.39543 3.5 5.5 3.5C6.60457 3.5 7.5 4.39543 7.5 5.5C7.5 6.60457 6.60457 7.5 5.5 7.5Z" fill="currentColor" opacity="0.7"/>
+                                </svg>
+                                <span class="property-card__location-text">East London</span>
+                            </div>
+                            <div class="property-card__features">
+                                <div class="property-card__feature">
+                                    <svg class="property-card__feature-icon" width="16" height="13" viewBox="0 0 16 13" fill="none">
+                                        <path d="M1 12V6.5L8 1L15 6.5V12H10V8H6V12H1Z" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.7"/>
+                                    </svg>
+                                    <span class="property-card__feature-text">6</span>
+                                </div>
+                                <div class="property-card__feature">
+                                    <svg class="property-card__feature-icon" width="13" height="15" viewBox="0 0 13 15" fill="none">
+                                        <path d="M1 14V8H12V14M3 8V6C3 4.89543 3.89543 4 5 4H8C9.10457 4 10 4.89543 10 6V8M6.5 10.5V12.5" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.7"/>
+                                    </svg>
+                                    <span class="property-card__feature-text">2</span>
+                                </div>
+                                <div class="property-card__feature">
+                                    <svg class="property-card__feature-icon" width="14" height="15" viewBox="0 0 14 15" fill="none">
+                                        <path d="M1 14H13M2 14V1H12V14M4 4H6M8 4H10M4 7H6M8 7H10M4 10H6M8 10H10" stroke="currentColor" stroke-width="1.5" opacity="0.7"/>
+                                    </svg>
+                                    <span class="property-card__feature-text">3</span>
+                                </div>
+                            </div>
+                            <div class="property-card__footer">
+                                <span class="property-card__price">$4527.00</span>
+                                <button class="property-card__btn btn-primary" type="button" tabindex="0" aria-label="Оставить заявку на Sequoia Real Estate">
+                                    Leave request
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="property-featured" id="about">
+            <div class="property-featured__container">
+                <div class="property-featured__background">
+                    <picture>
+                        <source srcset="assets/img/property-featured-building.webp" type="image/webp">
+                        <img src="assets/img/property-featured-building.webp" alt="Современное здание" class="property-featured__bg-img" width="362" height="548" loading="lazy">
+                    </picture>
+                </div>
+                <div class="property-featured__content">
+                    <h2 class="property-featured__title">Property Featured</h2>
+                    <p class="property-featured__description">
+                        Real estate is a crowded field. But with the number of buyers purchasing homes through real estate agents and brokers growing there's plenty of
+                    </p>
+                    <div class="property-featured__grid">
+                        <div class="property-featured__item">
+                            <div class="property-featured__icon">
+                                <img src="assets/icons/security-icon.svg" alt="100% Security" width="46" height="46" loading="lazy">
+                            </div>
+                            <h3 class="property-featured__item-title">100% Security</h3>
+                            <p class="property-featured__item-text">For many of us, buying a home is a dre and one not easily attainable.</p>
+                        </div>
+                        <div class="property-featured__item">
+                            <div class="property-featured__icon">
+                                <img src="assets/icons/movers-icon.svg" alt="Parkers & movers" width="46" height="46" loading="lazy">
+                            </div>
+                            <h3 class="property-featured__item-title">Parkers & movers</h3>
+                            <p class="property-featured__item-text">For many of us, buying a home is a dre and one not easily attainable.</p>
+                        </div>
+                        <div class="property-featured__item">
+                            <div class="property-featured__icon">
+                                <img src="assets/icons/air-conditioner-icon.svg" alt="Free air conditioner" width="46" height="46" loading="lazy">
+                            </div>
+                            <h3 class="property-featured__item-title">Free air conditioner</h3>
+                            <p class="property-featured__item-text">For many of us, buying a home is a dre and one not easily attainable.</p>
+                        </div>
+                        <div class="property-featured__item">
+                            <div class="property-featured__icon">
+                                <img src="assets/icons/furniture-icon.svg" alt="Rental furniture" width="46" height="46" loading="lazy">
+                            </div>
+                            <h3 class="property-featured__item-title">Rental furniture</h3>
+                            <p class="property-featured__item-text">For many of us, buying a home is a dre and one not easily attainable.</p>
+                        </div>
+                        <div class="property-featured__item">
+                            <div class="property-featured__icon">
+                                <img src="assets/icons/flower-garden-icon.svg" alt="Flower garden" width="46" height="46" loading="lazy">
+                            </div>
+                            <h3 class="property-featured__item-title">Flower garden</h3>
+                            <p class="property-featured__item-text">For many of us, buying a home is a dre and one not easily attainable.</p>
+                        </div>
+                        <div class="property-featured__item">
+                            <div class="property-featured__icon">
+                                <img src="assets/icons/swimming-pool-icon.svg" alt="Swimming pool" width="46" height="46" loading="lazy">
+                            </div>
+                            <h3 class="property-featured__item-title">Swimming pool</h3>
+                            <p class="property-featured__item-text">For many of us, buying a home is a dre and one not easily attainable.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="reviews" id="reviews" itemscope itemtype="https://schema.org/ItemList">
+            <div class="reviews__container">
+                <div class="reviews__header">
+                    <p class="reviews__subtitle">Reviews</p>
+                    <h2 class="reviews__title" itemprop="name">Our valuable customer says</h2>
+                </div>
+                <div class="reviews__slider">
+                    <div class="reviews__track">
+                        <article class="review-card">
+                            <div class="review-card__author">
+                                <div class="review-card__avatar">
+                                    <picture>
+                                        <source srcset="assets/img/client-1.webp" type="image/webp">
+                                        <img src="assets/img/client-1.webp" alt="Justin Lee" class="review-card__avatar-img" width="74" height="74" loading="lazy">
+                                    </picture>
+                                </div>
+                                <div class="review-card__info">
+                                    <h3 class="review-card__name">Justin Lee</h3>
+                                    <p class="review-card__position">Product Designer at Ito</p>
+                                </div>
+                            </div>
+                            <div class="review-card__quote">
+                                <img src="assets/icons/quote.png" alt="" class="review-card__quote-icon" width="64" height="64" loading="lazy">
+                            </div>
+                            <p class="review-card__text">RybuHome made finding our dream home effortless. Their team was professional, responsive, and truly understood our needs. The entire process was smooth from start to finish.</p>
+                        </article>
+
+                        <article class="review-card">
+                            <div class="review-card__author">
+                                <div class="review-card__avatar">
+                                    <picture>
+                                        <source srcset="assets/img/client-2.webp" type="image/webp">
+                                        <img src="assets/img/client-2.webp" alt="Angel Cathe" class="review-card__avatar-img" width="74" height="74" loading="lazy">
+                                    </picture>
+                                </div>
+                                <div class="review-card__info">
+                                    <h3 class="review-card__name">Angel Cathe</h3>
+                                    <p class="review-card__position">Marketing Manager at TechCorp</p>
+                                </div>
+                            </div>
+                            <div class="review-card__quote">
+                                <img src="assets/icons/quote.png" alt="" class="review-card__quote-icon" width="64" height="64" loading="lazy">
+                            </div>
+                            <p class="review-card__text">Exceptional service! The agents at RybuHome went above and beyond to help us sell our property quickly and at a great price. Highly recommend their expertise.</p>
+                        </article>
+
+                        <article class="review-card">
+                            <div class="review-card__author">
+                                <div class="review-card__avatar">
+                                    <picture>
+                                        <source srcset="assets/img/client-1.webp" type="image/webp">
+                                        <img src="assets/img/client-1.webp" alt="Michael Chen" class="review-card__avatar-img" width="74" height="74" loading="lazy">
+                                    </picture>
+                                </div>
+                                <div class="review-card__info">
+                                    <h3 class="review-card__name">Michael Chen</h3>
+                                    <p class="review-card__position">Software Engineer at Google</p>
+                                </div>
+                            </div>
+                            <div class="review-card__quote">
+                                <img src="assets/icons/quote.png" alt="" class="review-card__quote-icon" width="64" height="64" loading="lazy">
+                            </div>
+                            <p class="review-card__text">Outstanding experience with RybuHome! They helped us navigate the competitive market and secure our first home. Their knowledge and dedication are unmatched.</p>
+                        </article>
+
+                        <article class="review-card">
+                            <div class="review-card__author">
+                                <div class="review-card__avatar">
+                                    <picture>
+                                        <source srcset="assets/img/client-2.webp" type="image/webp">
+                                        <img src="assets/img/client-2.webp" alt="Sarah Johnson" class="review-card__avatar-img" width="74" height="74" loading="lazy">
+                                    </picture>
+                                </div>
+                                <div class="review-card__info">
+                                    <h3 class="review-card__name">Sarah Johnson</h3>
+                                    <p class="review-card__position">Financial Advisor at Wells Fargo</p>
+                                </div>
+                            </div>
+                            <div class="review-card__quote">
+                                <img src="assets/icons/quote.png" alt="" class="review-card__quote-icon" width="64" height="64" loading="lazy">
+                            </div>
+                            <p class="review-card__text">Professional, reliable, and results-driven. RybuHome's team made our property investment journey seamless. Their market insights were invaluable for making informed decisions.</p>
+                        </article>
+
+                        <article class="review-card">
+                            <div class="review-card__author">
+                                <div class="review-card__avatar">
+                                    <picture>
+                                        <source srcset="assets/img/client-1.webp" type="image/webp">
+                                        <img src="assets/img/client-1.webp" alt="David Rodriguez" class="review-card__avatar-img" width="74" height="74" loading="lazy">
+                                    </picture>
+                                </div>
+                                <div class="review-card__info">
+                                    <h3 class="review-card__name">David Rodriguez</h3>
+                                    <p class="review-card__position">Business Owner at Rodriguez & Co</p>
+                                </div>
+                            </div>
+                            <div class="review-card__quote">
+                                <img src="assets/icons/quote.png" alt="" class="review-card__quote-icon" width="64" height="64" loading="lazy">
+                            </div>
+                            <p class="review-card__text">RybuHome exceeded all expectations! They found us the perfect commercial space for our expanding business. Their attention to detail and customer service is top-notch.</p>
+                        </article>
+
+                        <article class="review-card">
+                            <div class="review-card__author">
+                                <div class="review-card__avatar">
+                                    <picture>
+                                        <source srcset="assets/img/client-2.webp" type="image/webp">
+                                        <img src="assets/img/client-2.webp" alt="Emma Wilson" class="review-card__avatar-img" width="74" height="74" loading="lazy">
+                                    </picture>
+                                </div>
+                                <div class="review-card__info">
+                                    <h3 class="review-card__name">Emma Wilson</h3>
+                                    <p class="review-card__position">Interior Designer at Creative Spaces</p>
+                                </div>
+                            </div>
+                            <div class="review-card__quote">
+                                <img src="assets/icons/quote.png" alt="" class="review-card__quote-icon" width="64" height="64" loading="lazy">
+                            </div>
+                            <p class="review-card__text">Amazing team at RybuHome! They understood our vision perfectly and helped us find a home with incredible potential. The renovation possibilities were endless thanks to their expertise.</p>
+                        </article>
+
+                        <article class="review-card">
+                            <div class="review-card__author">
+                                <div class="review-card__avatar">
+                                    <picture>
+                                        <source srcset="assets/img/client-1.webp" type="image/webp">
+                                        <img src="assets/img/client-1.webp" alt="James Thompson" class="review-card__avatar-img" width="74" height="74" loading="lazy">
+                                    </picture>
+                                </div>
+                                <div class="review-card__info">
+                                    <h3 class="review-card__name">James Thompson</h3>
+                                    <p class="review-card__position">Doctor at City Medical Center</p>
+                                </div>
+                            </div>
+                            <div class="review-card__quote">
+                                <img src="assets/icons/quote.png" alt="" class="review-card__quote-icon" width="64" height="64" loading="lazy">
+                            </div>
+                            <p class="review-card__text">Trustworthy and efficient service from RybuHome. Despite my busy schedule, they made the home buying process stress-free. Their communication was excellent throughout.</p>
+                        </article>
+
+                        <article class="review-card">
+                            <div class="review-card__author">
+                                <div class="review-card__avatar">
+                                    <picture>
+                                        <source srcset="assets/img/client-2.webp" type="image/webp">
+                                        <img src="assets/img/client-2.webp" alt="Lisa Martinez" class="review-card__avatar-img" width="74" height="74" loading="lazy">
+                                    </picture>
+                                </div>
+                                <div class="review-card__info">
+                                    <h3 class="review-card__name">Lisa Martinez</h3>
+                                    <p class="review-card__position">Teacher at Riverside Elementary</p>
+                                </div>
+                            </div>
+                            <div class="review-card__quote">
+                                <img src="assets/icons/quote.png" alt="" class="review-card__quote-icon" width="64" height="64" loading="lazy">
+                            </div>
+                            <p class="review-card__text">RybuHome made our family's relocation smooth and worry-free. They found us a wonderful home in a great school district. We couldn't be happier with their service!</p>
+                        </article>
+                    </div>
+                    <button class="reviews__nav-btn reviews__nav-btn--prev" type="button" tabindex="0" aria-label="Предыдущий отзыв">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <button class="reviews__nav-btn reviews__nav-btn--next" type="button" tabindex="0" aria-label="Следующий отзыв">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <div class="reviews__navigation">
+                        <div class="reviews__dots">
+                            <button class="reviews__dot reviews__dot--active" type="button" tabindex="0" aria-label="Отзыв 1"></button>
+                            <button class="reviews__dot" type="button" tabindex="0" aria-label="Отзыв 2"></button>
+                            <button class="reviews__dot" type="button" tabindex="0" aria-label="Отзыв 3"></button>
+                            <button class="reviews__dot" type="button" tabindex="0" aria-label="Отзыв 4"></button>
+                            <button class="reviews__dot" type="button" tabindex="0" aria-label="Отзыв 5"></button>
+                            <button class="reviews__dot" type="button" tabindex="0" aria-label="Отзыв 6"></button>
+                            <button class="reviews__dot" type="button" tabindex="0" aria-label="Отзыв 7"></button>
+                            <button class="reviews__dot" type="button" tabindex="0" aria-label="Отзыв 8"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="cta__container">
+                <div class="cta__content">
+                    <h2 class="cta__title">Get listed your home as a owner</h2>
+                    <p class="cta__subtitle">Here is a list of the greatest real estate company slogans of all-time. These catchy slogans are followed by the Greatest Real Estate.</p>
+                    <form class="cta__form" action="#" method="post">
+                        <div class="cta__form-wrapper">
+                            <input type="email" class="cta__input" placeholder="Enter email address" required autocomplete="email" aria-label="Введите email адрес">
+                            <button type="submit" class="cta__btn" aria-label="Подписаться на рассылку">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" itemscope itemtype="https://schema.org/WPFooter">
+        <div class="footer__container">
+            <p class="footer__copyright" itemprop="copyrightNotice">© 2025 RybuHome. All rights reserved</p>
+        </div>
+    </footer>
+
+    <!-- Модальное окно -->
+    <div class="modal" id="requestModal" aria-hidden="true" role="dialog" aria-labelledby="modalTitle">
+        <div class="modal__overlay" aria-label="Закрыть модальное окно"></div>
+        <div class="modal__content">
+            <button class="modal__close" type="button" aria-label="Закрыть модальное окно" tabindex="0">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+            
+            <div class="modal__header">
+                <h2 class="modal__title" id="modalTitle">Leave a request<br>and we will call you soon</h2>
+            </div>
+            
+            <form class="modal__form" id="requestForm" novalidate>
+                <div class="modal__form-group">
+                    <label class="modal__label" for="userName">Enter name</label>
+                    <input 
+                        type="text" 
+                        class="modal__input" 
+                        id="userName" 
+                        name="name" 
+                        placeholder="Example: Mark" 
+                        required 
+                        autocomplete="name"
+                        aria-describedby="userNameError"
+                        tabindex="0"
+                    >
+                    <span class="modal__error" id="userNameError" role="alert"></span>
+                </div>
+                
+                <div class="modal__form-group">
+                    <label class="modal__label" for="userPhone">Enter phone</label>
+                    <input 
+                        type="tel" 
+                        class="modal__input" 
+                        id="userPhone" 
+                        name="phone" 
+                        placeholder="+1" 
+                        required 
+                        autocomplete="tel"
+                        aria-describedby="userPhoneError"
+                        tabindex="0"
+                    >
+                    <span class="modal__error" id="userPhoneError" role="alert"></span>
+                </div>
+                
+                <div class="modal__form-group">
+                    <label class="modal__label" for="userEmail">Enter email address</label>
+                    <input 
+                        type="email" 
+                        class="modal__input" 
+                        id="userEmail" 
+                        name="email" 
+                        placeholder="email@example.com" 
+                        required 
+                        autocomplete="email"
+                        aria-describedby="userEmailError"
+                        tabindex="0"
+                    >
+                    <span class="modal__error" id="userEmailError" role="alert"></span>
+                </div>
+                
+                <div class="modal__form-group">
+                    <label class="modal__label">I want to</label>
+                    <div class="modal__radio-group" role="radiogroup" aria-labelledby="intentLabel">
+                        <label class="modal__radio-label">
+                            <input 
+                                type="radio" 
+                                class="modal__radio" 
+                                name="intent" 
+                                value="buy" 
+                                checked 
+                                tabindex="0"
+                            >
+                            <span class="modal__radio-button modal__radio-button--active">Buy</span>
+                        </label>
+                        <label class="modal__radio-label">
+                            <input 
+                                type="radio" 
+                                class="modal__radio" 
+                                name="intent" 
+                                value="rent" 
+                                tabindex="0"
+                            >
+                            <span class="modal__radio-button">Rent</span>
+                        </label>
+                        <label class="modal__radio-label">
+                            <input 
+                                type="radio" 
+                                class="modal__radio" 
+                                name="intent" 
+                                value="sell" 
+                                tabindex="0"
+                            >
+                            <span class="modal__radio-button">Sell</span>
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="modal__checkbox-group">
+                    <label class="modal__checkbox-label">
+                        <input 
+                            type="checkbox" 
+                            class="modal__checkbox" 
+                            name="privacy" 
+                            required 
+                            tabindex="0"
+                        >
+                        <span class="modal__checkbox-custom"></span>
+                        <span class="modal__checkbox-text">I agree to <a href="privacy/" class="modal__link" tabindex="0">Privacy Policy</a></span>
+                    </label>
+                </div>
+                
+                <button type="submit" class="modal__submit" tabindex="0">Submit</button>
+            </form>
+        </div>
+    </div>
+    
+    <script type="module" src="script.js"></script>
+</body>
+</html>

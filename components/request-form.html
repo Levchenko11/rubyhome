@@ -1,0 +1,108 @@
+<!-- 
+    Request Form Component
+    Компонент формы заявки для повторного использования
+    
+    Параметры:
+    - {formId} - ID формы
+    - {submitText} - текст кнопки отправки (по умолчанию "Submit")
+-->
+
+<form class="modal__form" id="{formId}" novalidate>
+    <div class="modal__form-group">
+        <label class="modal__label" for="userName">Enter name</label>
+        <input 
+            type="text" 
+            class="modal__input" 
+            id="userName" 
+            name="name" 
+            placeholder="Example: Mark" 
+            required 
+            aria-describedby="userNameError"
+            tabindex="0"
+        >
+        <span class="modal__error" id="userNameError" role="alert"></span>
+    </div>
+    
+    <div class="modal__form-group">
+        <label class="modal__label" for="userPhone">Enter phone</label>
+        <input 
+            type="tel" 
+            class="modal__input" 
+            id="userPhone" 
+            name="phone" 
+            placeholder="+1" 
+            required 
+            aria-describedby="userPhoneError"
+            tabindex="0"
+        >
+        <span class="modal__error" id="userPhoneError" role="alert"></span>
+    </div>
+    
+    <div class="modal__form-group">
+        <label class="modal__label" for="userEmail">Enter email address</label>
+        <input 
+            type="email" 
+            class="modal__input" 
+            id="userEmail" 
+            name="email" 
+            placeholder="email@example.com" 
+            required 
+            aria-describedby="userEmailError"
+            tabindex="0"
+        >
+        <span class="modal__error" id="userEmailError" role="alert"></span>
+    </div>
+    
+    <div class="modal__form-group">
+        <label class="modal__label">I want to</label>
+        <div class="modal__radio-group" role="radiogroup" aria-labelledby="intentLabel">
+            <label class="modal__radio-label">
+                <input 
+                    type="radio" 
+                    class="modal__radio" 
+                    name="intent" 
+                    value="buy" 
+                    checked 
+                    tabindex="0"
+                >
+                <span class="modal__radio-button modal__radio-button--active">Buy</span>
+            </label>
+            <label class="modal__radio-label">
+                <input 
+                    type="radio" 
+                    class="modal__radio" 
+                    name="intent" 
+                    value="rent" 
+                    tabindex="0"
+                >
+                <span class="modal__radio-button">Rent</span>
+            </label>
+            <label class="modal__radio-label">
+                <input 
+                    type="radio" 
+                    class="modal__radio" 
+                    name="intent" 
+                    value="sell" 
+                    tabindex="0"
+                >
+                <span class="modal__radio-button">Sell</span>
+            </label>
+        </div>
+    </div>
+    
+    <div class="modal__checkbox-group">
+        <label class="modal__checkbox-label">
+            <input 
+                type="checkbox" 
+                class="modal__checkbox" 
+                name="privacy" 
+                required 
+                tabindex="0"
+            >
+            <span class="modal__checkbox-custom"></span>
+            <span class="modal__checkbox-text">I agree to <a href="privacy/" class="modal__link" tabindex="0">Privacy Policy</a></span>
+        </label>
+    </div>
+    
+    <button type="submit" class="modal__submit" tabindex="0">{submitText}</button>
+</form>

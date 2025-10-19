@@ -1,0 +1,31 @@
+<!-- 
+    Review Card Component
+    Компонент карточки отзыва для повторного использования
+    
+    Параметры:
+    - {avatar} - путь к аватару
+    - {name} - имя автора отзыва
+    - {position} - должность автора
+    - {text} - текст отзыва
+-->
+
+<article class="review-card" itemscope itemtype="https://schema.org/Review">
+    <div class="review-card__author">
+        <div class="review-card__avatar">
+            <picture>
+                <source srcset="{avatar}" type="image/webp">
+                <img src="{avatar}" alt="{name}" class="review-card__avatar-img" width="74" height="74" loading="lazy">
+            </picture>
+        </div>
+        <div class="review-card__info">
+            <h3 class="review-card__name" itemprop="author" itemscope itemtype="https://schema.org/Person">
+                <span itemprop="name">{name}</span>
+            </h3>
+            <p class="review-card__position">{position}</p>
+        </div>
+    </div>
+    <div class="review-card__quote">
+        <img src="assets/icons/quote.png" alt="" class="review-card__quote-icon" width="64" height="64" loading="lazy">
+    </div>
+    <p class="review-card__text" itemprop="reviewBody">{text}</p>
+</article>
